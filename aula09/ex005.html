@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+
+        body{
+            background-color: rgb(155, 155, 255);
+            color: white;
+            font: normal 18pt arial;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Iniciando os estudos de DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em Javascript</p>
+    <button onclick="funcao()">Clique em mim</button>
+    
+    <script>
+        function funcao(){
+            document.getElementsByTagName("body").style.color = 'blue'
+        
+    }
+    </script>
+</body>
+</html>

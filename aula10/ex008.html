@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condições em Javascript</title>
+</head>
+<body>
+    <p>Digite um número para verificar se ele é maior que 10:</p>
+    <input type="text" name="n1" id="n1">
+    <input type="button" value="Verificar" onclick="verificar()">
+    
+    <script>
+
+        var x = document.getElementById('n1')
+        function verificar(){
+        var n = Number(x.value) 
+        if (n > 10){
+            document.write('O número é MAIOR que 10')
+        } else {document.write('O número é MENOR que 10')}}
+        
+
+    </script>
+</body>
+</html>

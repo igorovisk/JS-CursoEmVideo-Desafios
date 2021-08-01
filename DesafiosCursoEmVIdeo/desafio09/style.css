@@ -1,0 +1,28 @@
+header{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+section{
+    background-color: lightblue;
+    border-radius: 30px;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    
+}
+div{
+    padding: 20px;
+}
+input{
+    
+    size: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+div#res{
+    text-align: justify;
+    padding: 40px;
+}
